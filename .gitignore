@@ -1,0 +1,49 @@
+# Node modules and dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.out
+*.pid
+
+# Build output
+dist/
+build/
+*.cache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.iml
+
+# Python-related files
+__pycache__/
+*.pyc
+venv/
+.env/
+
+# Compiled and temp files
+*.o
+*.so
+*.dll
+*.exe
+*.class
+*.bak
+*.swp
+*.tmp
+
+# Test coverage
+coverage/
