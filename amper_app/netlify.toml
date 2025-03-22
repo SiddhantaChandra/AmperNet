@@ -1,0 +1,4 @@
+[build]
+  base = "amper_app"
+  command = "npm install && npm run build"
+  publish = "."
