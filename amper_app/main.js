@@ -18,7 +18,7 @@ var words = ["amper", "other"]
 
 
 // words from above array which act as terminal words in a sentence
-var endWords = ["hello"]
+var endWords = ["End"]
 
 class LaunchModal {
   constructor(){
@@ -196,7 +196,7 @@ class Main {
       }
 
       if(words.length == 3 && endWords.length ==1){
-        var proceed = confirm("You have not added any words.\n\nThe only query you can currently make is: 'Amper, hello'")
+        var proceed = confirm("You have not added any words.\n\nThe only query you can currently make is: 'Amper")
 
         if(!proceed) return
       }
