@@ -1,4 +1,3 @@
 [build]
-  base = "amper_app"
-  command = "npm install && npm run build"
-  publish = "."
+command = "npx browserify main.js -o amper_app/dist/build.js"
+publish = "amper_app/dist"
