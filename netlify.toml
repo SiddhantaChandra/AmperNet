@@ -1,0 +1,3 @@
+[build]
+command = "npx browserify main.js -o amper_app/dist/build.js"
+publish = "amper_app/dist"
